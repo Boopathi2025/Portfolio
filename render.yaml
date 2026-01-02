@@ -1,0 +1,17 @@
+services:
+  # Backend API
+  - type: web
+    name: portfolio-api
+    env: node
+    root: server
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: DATABASE_URL
+        sync: false # You will need to enter your Neon.tech URL here
+      - key: JWT_SECRET
+        generateValue: true # Render will generate a secure secret for you
+      - key: NODE_ENV
+        value: production
+    plan: free # Use the free tier
+    autoDeploy: true
