@@ -1,95 +1,124 @@
-// Centralized project data. All project links live here — components only render.
+// Centralized project data. All project links live here.
 
 export const projects = [
   {
-    id: 'social-media-platform',
-    title: 'Twitter Clone Application ',
-    status: 'Completed / Actively Improving',
+    id: 'twitter-clone',
+    title: 'Twitter Clone Application',
+    status: 'Completed',
     statusTone: 'complete',
+
     description:
-      'A Twitter-inspired full-stack social networking application built to understand and implement authentication, user relationships, social interactions, personalized feeds, REST API integration, database persistence, and cloud deployment.',
+      'A full-stack Twitter-inspired social networking application built using Java, Spring Boot, React, and PostgreSQL. The application demonstrates secure authentication, REST API development, social interactions, personalized feeds, and cloud deployment.',
+
     stack: {
-      backend: ['Java 21', 'Spring Boot', 'Spring Security', 'JWT', 'JPA', 'Hibernate'],
-      frontend: ['React', 'Vite', 'JavaScript', 'Axios', 'React Router'],
-      database: ['PostgreSQL'],
-      tools: ['Git', 'GitHub', 'Postman', 'Railway', 'Vercel'],
+      backend: [
+        'Java 21',
+        'Spring Boot',
+        'Spring Security',
+        'JWT',
+        'JPA',
+        'Hibernate'
+      ],
+
+      frontend: [
+        'React',
+        'Vite',
+        'JavaScript',
+        'Axios',
+        'React Router'
+      ],
+
+      database: [
+        'PostgreSQL'
+      ],
+
+      tools: [
+        'Git',
+        'GitHub',
+        'Postman',
+        'Railway',
+        'Vercel'
+      ]
     },
+
     features: [
       'User Registration',
-      'User Login',
-      'JWT Authentication',
-      'Password Encryption',
+      'User Authentication',
+      'JWT Authorization',
       'Create Tweets',
       'Delete Tweets',
-      'Like Tweets',
-      'Unlike Tweets',
-      'Retweet Functionality',
-      'Follow Users',
-      'Unfollow Users',
+      'Like & Unlike Tweets',
+      'Retweet Tweets',
+      'Follow / Unfollow Users',
       'Personalized Feed',
-      'Search Users by Email',
+      'Search Users',
       'User Profile',
       'Profile Image Upload',
-      'Protected REST API Endpoints',
-      'Frontend-Backend Integration',
-      'PostgreSQL Persistence',
-      'Cloud Deployment',
+      'REST API Integration',
+      'Responsive User Interface',
+      'Cloud Deployment'
     ],
+
     concepts: [
-      'Layered Backend Architecture',
-      'Controller-Service-Repository Pattern',
-      'Stateless Authentication',
       'REST API Development',
-      'Entity Relationship Mapping',
-      'Service-Layer Business Logic',
-      'Environment Variable Configuration',
-      'Frontend Authentication Flow',
-      'Cloud Database Integration',
-      'API Testing',
+      'Layered Architecture',
+      'Controller-Service-Repository Pattern',
+      'JWT Authentication',
+      'Spring Security',
+      'Entity Relationships',
+      'Database Persistence',
+      'Frontend-Backend Integration',
+      'Cloud Deployment',
+      'Git Version Control'
     ],
-    // Replace with your real repository and live demo URLs before deploying.
-    githubUrl: 'https://github.com/your-github-username/social-media-platform',
-    liveUrl: " https://twitter-clone-frontend-iota-ten.vercel.app ",
+
+    githubUrl: 'https://github.com/Boopathi2025/twitter-clone-backend',
+
+    liveUrl: 'https://twitter-clone-frontend-iota-ten.vercel.app'
   },
+
   {
-    id: 'placement-preparation-platform',
-    title: 'Placement Preparation Platform',
+    id: 'gameplan-iq',
+    title: 'GamePlan IQ',
     status: 'In Development',
     statusTone: 'in-progress',
+
     description:
-      'An integrated learning and practice platform designed to help students prepare systematically for technical placements and software engineering interviews.',
-    philosophy: ['Learn', 'Practice', 'Test', 'Analyze', 'Improve'],
+      'A web platform that helps students prepare for placements through DSA, aptitude, coding practice, interview preparation, mock tests, and progress tracking.',
+
+    philosophy: [
+      'Learn',
+      'Practice',
+      'Test',
+      'Analyze',
+      'Improve'
+    ],
+
     modules: [
       'DSA Learning',
       'Coding Practice',
-      'Quantitative Aptitude',
+      'Aptitude',
       'Logical Reasoning',
       'Interview Preparation',
-      'Company-Specific Preparation',
-      'Mock Assessments',
-      'Performance Analytics',
-      'Personalized Dashboard',
+      'Mock Tests',
+      'Progress Dashboard'
     ],
+
     plannedFeatures: [
-      'Topic-wise learning paths',
-      'Coding problem library',
-      'Difficulty-based challenges',
-      'Aptitude practice engine',
-      'Logical reasoning exercises',
-      'Timed mock tests',
-      'Interview question bank',
-      'Company-specific preparation tracks',
-      'Progress tracking',
-      'Performance analytics',
-      'Personalized dashboard',
-      'Daily challenges',
-      'Achievement system',
-      'Learning streak tracking',
+      'Personalized Dashboard',
+      'Company-wise Preparation',
+      'Coding Challenges',
+      'Leaderboard',
+      'Daily Practice',
+      'Learning Analytics',
+      'Achievement System',
+      'Progress Tracking'
     ],
-    // Replace with your real repository URL once this project has one.
-    githubUrl: 'https://github.com/your-github-username/placement-prep-platform',
-    liveUrl: null,
-  },
+
+    githubUrl: 'https://github.com/Boopathi2025/GamePlan-IQ',
+
+    liveUrl: null
+  }
 ]
 
 export default projects
