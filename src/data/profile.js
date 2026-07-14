@@ -52,4 +52,4 @@ export const profile = {
   closingMessage: 'Built with React, curiosity, and continuous improvement.',
 }
 
-export default profileF
+export default profile
