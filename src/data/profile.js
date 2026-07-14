@@ -5,7 +5,6 @@
 export const profile = {
   name: 'Boopathi',
   fullName: 'Boopathi',
-  initial: '',
   role: 'Java Full-Stack Developer',
   secondaryPositioning: 'Backend-Focused Developer | Spring Boot Developer | Problem Solver',
   tagline: 'Building secure backends and practical full-stack applications.',
